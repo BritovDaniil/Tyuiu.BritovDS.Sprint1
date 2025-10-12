@@ -33,7 +33,7 @@ namespace Tyuiu.BritovDS.Sprint1.Task5.V1
             double y2 = Convert.ToDouble(Console.ReadLine());
 
             DataService ds = new DataService();
-            int result = ds.Calculate(x1, y1, x2, y2);
+            int result = ds.DistanceBetweenDots(x1, y1, x2, y2);
 
             Console.WriteLine();
             Console.WriteLine("**********************************************");
