@@ -6,7 +6,7 @@ namespace Tyuiu.BritovDS.Sprint1.Task7.V2
     {
         static void Main(string[] args)
         {
-            DataService ds = new DataService();
+            DataService ds = new DataService(); 
 
             Console.Title = "Спринт #1 | Выполнил: Бритов Д. С. | ИСПб-25-1";
             Console.WriteLine("*********************************************************************************************");
